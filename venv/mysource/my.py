@@ -15,8 +15,8 @@ conn.execute(createtable)
 
 conn.execute('''CREATE TABLE COMPANY
          (ID INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
-         NAME           TEXT    NOT NULL,
-         AGE            INT     NOT NULL,
+         NAME           TEXT NOT NULL,
+         AGE            INT  NOT NULL,
          ADDRESS        CHAR(50),
          SALARY         REAL);''')
 print("Table created successfully")
